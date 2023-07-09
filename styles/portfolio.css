@@ -1,0 +1,48 @@
+/* common shared style */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.text-primary {
+    color: rgba(238, 77, 14, 0.933);
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgba(238, 77, 14, 0.933);
+    border: 0;
+    color: white;
+    font-size:  20px; 
+    font-weight: 700 px;
+    padding: 18px 35px;
+}
+
+/* nev related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
