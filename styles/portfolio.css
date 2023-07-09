@@ -14,26 +14,30 @@ body {
     background: #fd6e0a;
     border: 0;
     color: white;
-    font-size:  20px; 
+    font-size: 20px;
     font-weight: 700 px;
     padding: 18px 35px;
 
 }
-.btn{
+
+.btn {
     margin-top: 30px;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700px;
 }
-.section-descriptioin{
+
+.section-descriptioin {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    
+
 }
+
 /* nev related style */
 nav {
     display: flex;
@@ -62,49 +66,78 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
- /* header related style */
- .header{
+
+/* header related style */
+.header {
     background-color: #e49a78;
     /* background-image:url('../images/photo/download.jpg') ; */
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: bottom right;
- }
- .banner{
+}
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
-    align-items:center;
-    justify-content:space-around ;
+    align-items: center;
+    justify-content: space-around;
 
- }
- .banner .profile-pic{
-    width: 500px;
-   
-    
 }
-.banner-content{
+
+.banner .profile-pic {
+    width: 500px;
+
+
+}
+
+.banner-content {
     max-width: 500px;
 }
- .banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
- }
- .banner-title{
+}
+
+.banner-title {
     font-size: 85px;
     font-weight: 700px;
     margin-top: 5px;
     margin-bottom: 20px;
- }
- .banner-description{
-    max-width: 600px;
- }
-  /* Main section style */
+}
 
-  /* about section style */
-  .about{
+.banner-description {
+    max-width: 600px;
+}
+
+/* Main section style */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about {
     padding: 130px;
     border-radius: 10px;
-    background: #d8b7a7;
+    background: #eeccbc;
     margin: 130px;
-  }
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.about-info {
+    text-align: center;
+}
+#what-id{
+    padding: 30px 150px;
+}
+.icon{
+    width: 50px;
+}
