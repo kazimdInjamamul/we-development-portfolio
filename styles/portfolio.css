@@ -11,7 +11,7 @@ body {
 
 .btn-primary {
     border-radius: 5px;
-    background: rgba(238, 77, 14, 0.933);
+    background: #fd6e0a;
     border: 0;
     color: white;
     font-size:  20px; 
@@ -54,4 +54,9 @@ nav a {
  .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
+    align-items: center;
+ }
+ .banner .profile-pic{
+    width: 500px;
+
  }
