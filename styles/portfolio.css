@@ -113,7 +113,7 @@ nav a {
 
 /* Main section style */
 main {
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 main section{
@@ -161,4 +161,35 @@ main section{
 
 .skill-description {
     color: #757575;
+}
+/* resume-style */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-titel{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-info{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.resume-item-info, .resume-item-description{
+    color: #757575;
+}
+.dwonload-cv{
+    text-align: center;
+    margin-top: 50px;
 }
